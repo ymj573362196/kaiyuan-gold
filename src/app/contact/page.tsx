@@ -3,7 +3,7 @@ import { ContactForm } from "./ContactForm";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SectionTitle } from "@/components/shared/SectionTitle";
 import { Card, CardContent } from "@/components/ui/card";
-import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, MessageCircle, User } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "联系我们",
@@ -13,9 +13,15 @@ export const metadata: Metadata = {
 
 const contactInfo = [
   {
+    icon: User,
+    label: "联系人",
+    value: "金总",
+    desc: "欢迎来电咨询",
+  },
+  {
     icon: Phone,
-    label: "客服电话",
-    value: "400-888-XXXX",
+    label: "联系电话",
+    value: "13588086755",
     desc: "周一至周日 9:00 - 21:00",
   },
   {
@@ -27,7 +33,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "公司地址",
-    value: "上海市浦东新区陆家嘴金融城XX号",
+    value: "中山中路337号",
     desc: "欢迎预约到访",
   },
   {

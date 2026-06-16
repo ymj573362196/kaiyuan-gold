@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
-import { Phone, MapPin, Mail } from "lucide-react";
+import { Phone, MapPin, Mail, User } from "lucide-react";
 
 export function Footer() {
   return (
@@ -45,8 +45,12 @@ export function Footer() {
             <h4 className="text-white font-semibold mb-4">联系方式</h4>
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-gray-400 text-sm">
+                <User size={14} className="text-amber-500 shrink-0" />
+                金总
+              </li>
+              <li className="flex items-center gap-2 text-gray-400 text-sm">
                 <Phone size={14} className="text-amber-500 shrink-0" />
-                400-888-XXXX
+                13588086755
               </li>
               <li className="flex items-center gap-2 text-gray-400 text-sm">
                 <Mail size={14} className="text-amber-500 shrink-0" />
@@ -54,7 +58,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2 text-gray-400 text-sm">
                 <MapPin size={14} className="text-amber-500 shrink-0 mt-0.5" />
-                中国上海市浦东新区陆家嘴金融城XX号
+                中山中路337号
               </li>
             </ul>
           </div>
