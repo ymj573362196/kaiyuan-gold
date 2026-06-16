@@ -56,8 +56,8 @@ export const metadata: Metadata = {
       "开元金币官网，专注熊猫金币、熊猫银币、金银纪念币及贵金属收藏品。",
   },
   icons: {
-    icon: "/logo.svg",
-    apple: "/logo.svg",
+    icon: "/logo.png",
+    apple: "/logo.png",
   },
 };
 
